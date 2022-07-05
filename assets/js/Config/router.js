@@ -1,10 +1,8 @@
-﻿import { HomeComponent, ReturnPartsComponent, CheckStatusComponent } from '../Layouts/index.js';
-import * as components from '../Components/index.js';
+﻿import * as components from '../Components/index.js';
+import newpage from '../Components/Pages/newpage.js';
 
 const routes = [
-    { path: '/', component: ReturnPartsComponent },
-    { path: '/Devoluciones', component: ReturnPartsComponent },
-    { path: '/CheckStatus', component: CheckStatusComponent },
+    {path:'/test', component: newpage}
 ];
 
 export default VueRouter.createRouter({
